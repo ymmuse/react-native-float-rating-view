@@ -1,0 +1,24 @@
+{
+  "name": "react-native-float-rating-view",
+  "version": "1.0.0",
+  "description": "Half or float point ratings for React Native iOS",
+  "main": "FloatRatingView.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ymmuse/react-native-float-rating-view"
+  },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "half",
+    "float",
+    "rating"
+  ],
+  "author": "ymmuse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ymmuse/react-native-float-rating-view/issues"
+  },
+  "homepage": "https://github.com/ymmuse/react-native-float-rating-view#readme"
+}
