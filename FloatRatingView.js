@@ -5,13 +5,9 @@
 
 'use strict';
 
-import ReactNative, {View, requireNativeComponent}  from 'react-native'
+import React from 'react'
+import ReactNative, {UIManager, View, requireNativeComponent, Image, resolveAssetSource}  from 'react-native'
 
-var Image = require('Image')
-var React = require('React')
-var resolveAssetSource = require('resolveAssetSource')
-
-var UIManager = require('UIManager')
 var RCTFloatRatingView = requireNativeComponent('RCTFloatRatingView', null)
 
 const PropTypes = require('react/lib/ReactPropTypes')
