@@ -1,6 +1,6 @@
 {
   "name": "react-native-float-rating-view",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Half or float point ratings for React Native iOS",
   "main": "FloatRatingView.js",
   "repository": {
