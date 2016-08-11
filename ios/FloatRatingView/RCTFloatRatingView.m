@@ -130,8 +130,8 @@
     for (int i = _maxRating - 1; i >= 0; --i) {
         UIImageView *imageView = emptyImageViews[i];
         if (touchLocation.x > imageView.frame.origin.x) {
-            CGPoint newLocation = [imageView convertPoint:touchLocation toView:self];
-            
+            CGPoint newLocation = [self convertPoint:touchLocation toView:imageView];
+
             if ([imageView pointInside:newLocation withEvent:nil] && (_floatRatings || _halfRatings)) {
                 CGFloat decimalNum = newLocation.x / imageView.frame.size.width;
                 newRating = (CGFloat)i + decimalNum;
