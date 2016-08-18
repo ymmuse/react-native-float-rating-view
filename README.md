@@ -11,6 +11,19 @@ rnpm install react-native-float-rating-view
 
 ## How to use
 
+```jsx
+ <View style={styles.container}>
+        <FloatRatingView
+          style={styles.ratingview}
+          emptyImage={require('./StarEmpty.png') }
+          fullImage={require('./StarFull.png') }
+          maxRating={5}
+          minRating={1}
+          editable={true}
+          rating={3.4} />
+  </View>
+```
+
 [view demo code](https://github.com/ymmuse/react-native-float-rating-view/blob/master/demo/index.ios.js)
 
 
